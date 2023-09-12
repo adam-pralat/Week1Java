@@ -1,12 +1,12 @@
 package uoft.csc207.week1;
 
-/**
- * A person at the UofT.
- */
+// A person at the UofT.
 class Person {
 
-    /** The person's name (family name last).  */
-    String[] name;    /** The person's UTORid */  String utorid;
+    // The person's name (family name last).
+    String[] name;
+    // The person's UTORid
+    String utorid;
     /**
      * Initialize this Person named name with UTORid utorid.
      *
@@ -26,15 +26,14 @@ class Person {
     }
 
     /**
-     * Return the name formatted as a str. The last name is first, then a
-     * comma, then the rest of the names.
+     * Return the name formatted as a str. The last name is first, then a comma, then the rest of the names.
      * @return the name formatted as a str.
      */
     String formatName() {
         String formattedName = this.name[name.length - 1] + ",";
-                   int i = 0;
-        while (i != this.name.length - 1) {            formattedName =
-                formattedName+" "+this.name[i];
+        int i = 0;
+        while (i != this.name.length - 1) {
+            formattedName = formattedName + " " + this.name[i];
             i += 1;
         }
 

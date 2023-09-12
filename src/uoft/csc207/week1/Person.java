@@ -1,4 +1,4 @@
-package uoft.csc207.week2;
+package uoft.csc207.week1;
 
 /**
  * A person at the UofT.

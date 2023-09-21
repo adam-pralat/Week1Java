@@ -7,5 +7,6 @@ public class Main {
 	    Person p = new Person(name, "moogah");
         Person s = new Student(name, "frooble", "123456789");
         System.out.println(p);
+        System.out.println(s);
     }
 }
